@@ -75,12 +75,10 @@
                     Details
                   </v-btn>
                 </div>
-                </v-card-text>
-              
+                </v-card-text>              
             </v-card>
             </v-hover>
-          </v-col>
-        
+          </v-col>        
       </v-row>
     </v-col>
 
@@ -137,7 +135,6 @@
       </v-container>
     </v-section>
   </v-col>
-
 
   </v-container>
 <!-- Footer component -->
@@ -222,7 +219,7 @@ export default {
           title: "Super delicious",
           userID: "kimchiman",
           date: "01 Jun 2022",
-          rating: 4.5,
+          rating: 3.5,
           description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit rem saepe sapiente deleniti, odio non laborum fuga."
         },
         {

@@ -55,7 +55,7 @@ export default {
     scroll(refName) {
     const element = document.getElementById(refName);
     if (element) {
-    element.scrollIntoView({ behavior: 'smooth' });
+    element.scrollIntoView({ behavior: 'smooth' }); // to scroll to the specified element with a smooth animation effect
     this.activeSection = refName; // Set the active section
     this.drawer = false; // Close the navigation drawer after clicking a menu item
   }

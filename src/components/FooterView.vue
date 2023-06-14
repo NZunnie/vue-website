@@ -1,7 +1,7 @@
 <template>
   <v-footer class="footer">
     <v-container>
-      <v-row class="footer-content" align="center">
+      <v-row class="footer-content align=center" >
         <v-col cols="12" md="6">
           <div class="footer-contact">
             <h1 class="mb-5">Contact Us</h1>
@@ -23,7 +23,7 @@
           <div class="footer-subscribe">
             <h2 class="mb-5 text-orange-darken-3">Get 10% off your first order</h2>
             <v-form class="footer-form" @submit.prevent="submitForm">
-              <v-row no-gutters align="center" >
+              <v-row no-gutters class="align=center" >
                 <v-col cols="12" sm="9">
                   <v-text-field v-model="email" label="Enter your email" required></v-text-field>
                 </v-col>
